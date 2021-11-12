@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="Controllersignup.js"></script>
+</head>
+<body>
+<!-- kein .php aber wohin dann?-->
+<form method='post' id="signupform">
+
+        <pre>
+        <label for='firstname'>Firstname</label>
+        <input id='firstname' type='text' name='firstname' required placeholder='Firstname'>
+
+        <label for='surname'>Surname</label>
+        <input id='surname' type='text' name='surname' required placeholder='Surname'>
+
+        <label for='password'>Password</label>
+        <input id='password' type='password' name='passwords' required >
+
+        <label for='repass'>Repeat password </label>
+        <input id='repass' type='password' name='repeatpassword' required placeholder='Password'>
+
+        <label for='pseudoname'>Pseudoname</label>
+        <input id='pseudoname' type='text' name='pseudo' placeholder='Pseudoname' required>
+
+        <label for='email'>E-mail</label>
+        <input id='email' type='email' name='email' placeholder='E-Mail-Address' required>
+
+        <input id="honeypot" type="text" name="antibot" style="display: none">
+
+        <input type='submit' name='submit'> <a href='frameratemainpage.html'> </a></input>
+
+        </pre>
+</form>
+<pre>
+        <a href='Signin.html'><button>Sign in</button></a>
+        </pre>
+</body>
+</html>
